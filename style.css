@@ -1,0 +1,105 @@
+/* INÍCIO RESET CSS */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* FIM RESET CSS */
+
+html
+{
+    height: 200vh;
+    background-color: black;
+}
+
+.container
+{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header
+{
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .3s;
+}
+
+header.rolagem
+{
+    background-color: #fff;
+    padding: 20px 4%;
+}
+
+header.rolagem a, header.rolagem i
+{
+    color: #b63f3f;
+}
+
+
+header i
+{
+    font-size: 30px;
+    color: #fff;
+}
+
+header ul
+{
+    list-style-type: none;
+}
+
+header ul li
+{
+    display: inline-block;
+    margin: 0px 40px;
+}
+
+header ul li a
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-contato button
+{
+    width: 120px;
+    height: 40px;
+    border: 0;
+    background-color: #b63f3f;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.banner
+{
+    height: 100vh;
+    background-image: url(images/pinguim.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1
+{
+    font-size: 4em;
+}
+
+.banner h1 span
+{
+    color: #b63f3f;
+}
